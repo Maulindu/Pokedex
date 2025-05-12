@@ -26,19 +26,10 @@
     --background-muted: #f8fafc;
 
     --color-primary: #030615;
-    --color-secondary: '';
-    --color-tertiary: '';
-    --color-accent: '';
-    --color-compliment: '';
-    --color-gradient: '';
-    --color-muted: ;
+  
     --color-link: #2563eb;
     --color-link-transparent: rgba(37, 99, 235, 0.1);
 
-    --color-success: '';
-    --color-warning: '';
-    --color-error: '';
-    --color-info: '';
     --color-highlight: #fef9c3;
 
     --gradient-start: #9580ff;
@@ -65,29 +56,17 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background-primary:#763391;
+        --background-primary:#672082;
 
         --background-secondary: #0e101e;
         --background-tertiary: #121424;
-        --background-accent: '';
-        --background-compliment: '';
-        --background-gradient: '';
         --background-muted: #1a1e32;
 
         --color-primary: white;
-        --color-secondary: '';
-        --color-tertiary: '';
-        --color-accent: '';
-        --color-compliment: '';
-        --color-gradient: '';
-        --color-muted: ;
+
         --color-link: #60a5fa;
         --color-link-transparent: rgba(37, 99, 235, 0.1);
 
-        --color-success: '';
-        --color-warning: '';
-        --color-error: '';
-        --color-info: '';
         --color-highlight: #fef9c3;
 
         --gradient-start: #9580ff;
@@ -96,14 +75,7 @@
         --border-primary: #29325b;
         --border-secondary: #323c71;
         --border-highlight: #4649af;
-        --border-tertiary: '';
 
-        --shadow-dark: '';
-        --shadow-light: '';
-        --shadow-text: '';
-
-        --padding-small: 1rem;
-        --padding-large: 2rem;
 
         --border-radius-small: 0.5rem;
         --border-radius-large: 0.75rem;
@@ -120,9 +92,10 @@
     font-family: 'Pokemon', sans-serif;
     font-size: 1.2rem;
     font-weight: 400; /* Ensure normal weight */
-    color: #f4c60e; /* Pikachu Yellow! */
+    color: #fdcf17; /* Pikachu Yellow! */
     text-shadow: 2px 2px #0f21a6; /* Indigo League Blue */
     letter-spacing: 0.095em; /* Adjust letter spacing globally */
+    
 }
 
 @font-face {
@@ -557,13 +530,6 @@ input[type="color"] {
 select:is([multiple]) {
     background: none;
     height: fit-content;
-}
-
-fieldset:focus-within,
-input:focus-within,
-textarea:focus-within,
-select:focus-within {
-    border-color: var(--border-highlight);
 }
 
 fieldset:hover,

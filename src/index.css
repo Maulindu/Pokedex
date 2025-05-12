@@ -20,10 +20,20 @@
 }
 
 .title-name-pokedex{
-  color: #295F98 !important;
   text-decoration: dotted;
   text-shadow: none;
   font-size: 110%;
+  background: linear-gradient(90deg, #d751f9, #e52e71);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: text-shadow 0.3s ease;
+}
+
+.title-name-pokedex:hover {
+  background: linear-gradient(90deg, #ebf951, #e52e71);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: none;
 }
 
 .header {
