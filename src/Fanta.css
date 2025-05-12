@@ -329,11 +329,6 @@ sub {
     line-height: normal;
 }
 
-/* Image and multimedia */
-audio {
-    width: 100%;
-}
-
 audio,
 img,
 video {
@@ -344,40 +339,6 @@ video {
 img {
     height: auto;
 }
-
-/* Tables */
-table {
-    width: fit-content;
-    border: 1px solid var(--border-primary);
-    background: var(--background-muted);
-    border-radius: var(--border-radius-small);
-}
-
-table tr:last-child td:first-child {
-    border-bottom-left-radius: 8px;
-}
-
-table tr:last-child td:last-child {
-    border-bottom-right-radius: 8px;
-}
-
-table tr:first-child th:first-child {
-    border-top-left-radius: 8px;
-}
-
-table tr:first-child th:last-child {
-    border-top-right-radius: 8px;
-}
-
-th {
-    background-color: var(--background-muted);
-}
-
-td {
-    background: var(--background-primary);
-}
-
-td,
 th {
     text-align: left;
     padding: 8px;
@@ -530,13 +491,6 @@ input[type="color"] {
 select:is([multiple]) {
     background: none;
     height: fit-content;
-}
-
-fieldset:hover,
-input:hover,
-textarea:hover,
-select:hover {
-    border-color: var(--border-highlight);
 }
 
 progress {
